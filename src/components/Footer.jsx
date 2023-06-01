@@ -6,8 +6,8 @@ function Footer() {
   return (
     <div className='footer'>
         <div className="footer-text">
-            <p>www.ccchanwap1.com</p>
-            <p>Hanwa, Kwangila Zaria</p>
+            <p>www.ccchanwa.com</p>
+            <p>Hanwa Parish 1, Zaria</p>
         </div>
         <div className="footer-image">
           <img src={Logo} alt="cele-logo" />
