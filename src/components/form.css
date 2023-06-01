@@ -1,0 +1,43 @@
+.form {
+    width: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.068);
+    flex-direction: column;
+    max-width: 400px;
+    z-index: 10;
+}
+.form .form-head {
+    padding: 1rem 0;
+}
+.form .form-body {
+    margin: .1rem 0;
+}
+.form .form-body .input {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.form .form-body .input label {
+    font-size: 14px;
+}
+.form .form-body .input input {
+    height: 1.8rem;
+    width: 20rem;
+    outline: none;
+    border-radius: .2rem;
+    padding: .3rem;
+    border: 1px solid grey;
+} 
+
+button {
+    border: none;
+    padding: .7rem;
+    background-color: blue;
+    color: white;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+button:hover {
+    border:1px solid blue;
+    color: blue;
+    background-color: white;
+}

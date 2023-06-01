@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td {
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+th {
+    height: 2rem;
+}
+td {
+    vertical-align: middle;
+    padding: .5rem;
+}
+tbody tr td:nth-child(5) {
+    color: rgba(255, 174, 0, 0.925);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+tbody tr td:nth-child(6) {
+    color: rgba(185, 30, 30, 0.911);
+    font-size: 1.3rem;
+    cursor: pointer;
+}

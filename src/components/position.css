@@ -1,0 +1,52 @@
+.player {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    margin: .5rem 0;
+}
+.player .player-rank {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.player .player-image {
+    width: 2rem;
+    height: 2rem;
+}
+.player .player-image img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.player .player-name-score {
+    display: flex;
+    flex-grow: 1;
+    padding: .35rem;
+    border-radius: .2rem;
+    justify-content: space-between;
+    background-color: white;
+}
+.player-image img , .player-name-score {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.068);
+}
+.first {
+    background-color: #e57c23 !important;
+    color: white;
+}
+.first-pos {
+    color: #e57c23 !important;
+}
+.second {
+    background-color: #9ba4b5 !important;
+    color: white;
+}
+.second-pos {
+    color: #9ba4b5 !important;
+}
+.third {
+    background-color: #f7d060 !important;
+    color: white;
+}
+.third-pos {
+    color: #f7d060 !important;
+}
